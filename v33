@@ -1731,7 +1731,6 @@ ScreenGui._77.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://gist.githubusercontent.com/LimurTempest/34d9c78e6090e5e683402e81b8a8a722/raw/a36b6f0667e34feb5d0e4af30c14bc82682d0fac/SonicRedesign_LegendsOfSpeed", true))()
 end)
 
-
 ScreenGui.UICorner_72.Parent = ScreenGui._77
 
 ScreenGui.UIGradient_68.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 255, 255))}
@@ -1751,7 +1750,6 @@ ScreenGui._83.TextWrapped = true
 ScreenGui._83.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
-
 
 ScreenGui.UICorner_73.Parent = ScreenGui._83
 
@@ -2137,13 +2135,13 @@ ScreenGui._97.Parent = ScreenGui.ScrollingFrame
 ScreenGui._97.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui._97.Size = UDim2.new(0, 527, 0, 50)
 ScreenGui._97.Font = Enum.Font.SourceSans
-ScreenGui._97.Text = "_"
+ScreenGui._97.Text = "KAT! 2"
 ScreenGui._97.TextColor3 = Color3.fromRGB(0, 0, 0)
 ScreenGui._97.TextScaled = true
 ScreenGui._97.TextSize = 14.000
 ScreenGui._97.TextWrapped = true
 ScreenGui._97.MouseButton1Down:connect(function()
-	
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))()
 end)
 
 ScreenGui.UICorner_93.Parent = ScreenGui._97
