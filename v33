@@ -2118,13 +2118,13 @@ ScreenGui._96.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui._96.Position = UDim2.new(0, 0, 0.549450576, 0)
 ScreenGui._96.Size = UDim2.new(0, 527, 0, 50)
 ScreenGui._96.Font = Enum.Font.SourceSans
-ScreenGui._96.Text = "_"
+ScreenGui._96.Text = "MM2 JayHub"
 ScreenGui._96.TextColor3 = Color3.fromRGB(0, 0, 0)
 ScreenGui._96.TextScaled = true
 ScreenGui._96.TextSize = 14.000
 ScreenGui._96.TextWrapped = true
 ScreenGui._96.MouseButton1Down:connect(function()
-	
+	loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
 end)
 
 ScreenGui.UICorner_92.Parent = ScreenGui._96
