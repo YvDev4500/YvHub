@@ -2078,13 +2078,13 @@ ScreenGui._95.Parent = ScreenGui.ScrollingFrame
 ScreenGui._95.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui._95.Size = UDim2.new(0, 527, 0, 50)
 ScreenGui._95.Font = Enum.Font.SourceSans
-ScreenGui._95.Text = "_"
+ScreenGui._95.Text = "Anime Fighter"
 ScreenGui._95.TextColor3 = Color3.fromRGB(0, 0, 0)
 ScreenGui._95.TextScaled = true
 ScreenGui._95.TextSize = 14.000
 ScreenGui._95.TextWrapped = true
 ScreenGui._95.MouseButton1Down:connect(function()
-	
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua')))()
 end)
 
 ScreenGui.UICorner_90.Parent = ScreenGui._95
@@ -2098,13 +2098,13 @@ ScreenGui._94.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui._94.Position = UDim2.new(0, 0, 0.274725288, 0)
 ScreenGui._94.Size = UDim2.new(0, 527, 0, 50)
 ScreenGui._94.Font = Enum.Font.SourceSans
-ScreenGui._94.Text = "_"
+ScreenGui._94.Text = "Anime Fighter AutoFarm"
 ScreenGui._94.TextColor3 = Color3.fromRGB(0, 0, 0)
 ScreenGui._94.TextScaled = true
 ScreenGui._94.TextSize = 14.000
 ScreenGui._94.TextWrapped = true
 ScreenGui._94.MouseButton1Down:connect(function()
-	
+	loadstring(game:HttpGet("https://pastebin.com/raw/Uy7HtJPP", true))()
 end)
 
 ScreenGui.UICorner_91.Parent = ScreenGui._94
