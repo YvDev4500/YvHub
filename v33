@@ -2155,13 +2155,13 @@ ScreenGui._58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui._58.Position = UDim2.new(0, 0, 0.274725288, 0)
 ScreenGui._58.Size = UDim2.new(0, 527, 0, 50)
 ScreenGui._58.Font = Enum.Font.SourceSans
-ScreenGui._58.Text = "_"
+ScreenGui._58.Text = "Mocap Dancing"
 ScreenGui._58.TextColor3 = Color3.fromRGB(0, 0, 0)
 ScreenGui._58.TextScaled = true
 ScreenGui._58.TextSize = 14.000
 ScreenGui._58.TextWrapped = true
 ScreenGui._58.MouseButton1Down:connect(function()
-	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Animations%3A%20Mocap"))()
 end)
 
 ScreenGui.UICorner_94.Parent = ScreenGui._58
